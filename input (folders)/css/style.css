@@ -1,0 +1,55 @@
+.container{
+    width:760px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: rgb(255, 240, 218);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+body{
+    background-image: url("../img/ignasi_pattern_s.png")
+}
+
+.size{
+    width: 129px;
+    height: 22px;
+}
+
+.font, .select-field{
+    font-family: Indie Flower;
+}
+.font:focus{
+    background: rgb(4, 95, 4);
+    border:1px solid green;
+    transition:background-color 0.5s;
+}
+
+h2{
+    font-family: fantasy;
+}
+
+/* display:block (sukurus "class" kiekvienam atskiram teksto laukeliui)
+ SUSKIRSTO EILUTES NUO VIRSAUS IKI APACIOS. NEBEREIKALINGAS <br> */
+
+ .input-font{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .btn{
+     margin-top: 15px;
+     padding: 5px 15px;
+    background: blueviolet;
+    transition: background-color 0.5s;
+
+ }
+
+ .btn:hover{
+     transition: background-color 0.5s;
+    background: rgb(0, 153, 255);
+ }
+
+ #id{
+     width: 100%;
+ }

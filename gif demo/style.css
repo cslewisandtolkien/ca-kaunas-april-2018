@@ -1,0 +1,11 @@
+.albert{
+    width: 100%;
+    height: 200px;
+    background: url("giphy.png");
+    margin:auto;
+}
+
+.albert:hover{
+    cursor:pointer; 
+    background:url("giphy.gif");
+}
