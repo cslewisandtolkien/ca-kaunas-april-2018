@@ -1,0 +1,23 @@
+body{
+    background:url("../img/hip-square.png");
+    text-align: center;
+    
+}
+
+.block1{
+    padding: 30px;
+    margin: 5px auto;
+    background-color: yellow;
+}
+
+.block2{
+    padding: 30px;
+    margin: 5px auto;
+    background: linear-gradient(red, blue);
+}
+
+.block3{
+    padding: 30px;
+    margin: 5px auto;
+    background-color: navy
+}
