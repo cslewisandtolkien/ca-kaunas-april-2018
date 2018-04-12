@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // let apples = 125;
+        // apples++; (JEI NORIMA PRIDETI VIENU DAUGIAU)
+        let a = "Hello ";
+        let b = "World";
+        let rez = a + b;
+
+
+        // alert("privet");
+        // console.log(rez);
+
+        function test(){
+
+            // alert("funkcija pavyko test()");
+            let x = document.getElementById("price").value;
+            let y = Number(x);
+            console.log(typeof y);
+            // x = x + 100;
+            // console.log(x);
+            y = y + 100;
+            console.log(y);
+            document.getElementById("result").innerHTML ="<h1>"+y+"</h1>";
+        }
+    </script>
+</head>
+<body>
+
+    <input type="text" class="price" name="price" id="price">
+    <button type="button" id="test" onclick="test()">Cheking</button>
+    <div id="result">
+
+    </div>
+    
+</body>
+</html>
