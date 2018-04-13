@@ -1,0 +1,65 @@
+/* body{
+    background-image: url("../img/hip-square.png");
+}
+
+.text{
+    align-self: center;
+    text-align: center;
+}
+
+.block2{
+    padding: 10px;
+    margin: 5px auto;
+    border: 3px solid black;
+    width: 70%;
+}
+
+.block3{
+    padding: 10px;
+    margin: 5px auto;
+    width: 50%;
+}
+
+#table{
+    background-color: white;
+    border: 3px solid black;
+    margin: 50px 10px 10px 10px;
+    padding:50px;
+} */
+
+.profile{
+    border-radius: 50%;
+}
+
+.login-block{
+    background-color: white;
+}
+
+
+.content {
+    background: #fff;
+    min-height: 100px;
+    padding: 15px;
+   
+
+}
+
+.login{
+    text-align: center;
+}
+
+.link{
+    text-align: right;
+}
+
+.flex{
+    display: flex;
+}
+
+.input{
+    width:100%;
+}
+
+.lastblock1{
+    margin-left: 150px;
+}

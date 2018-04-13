@@ -1,0 +1,93 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function rez() {
+
+            let x = document.getElementById("apple1").value;
+            let y = document.getElementById("apple2").value;
+
+
+
+            if (x == y) {
+                document.getElementById("equal").innerText = "Zodziai lygus";
+            }
+
+            else {
+                document.getElementById("equal").innerText = "Zodziai nelygus";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="row text">
+            <div class="col-4">
+                <div id="table">
+                    <input type="text" name="text" id="apple1" class="block2">
+                    <input type="text" name="text" id="apple2" class="block2">
+                    <button type="button" onclick="rez()" id="rez" class="block3 btn btn-outline-primary">equal</button>
+                    <h1 id="equal"></h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="login-block" >
+                    <h1 class="login">Login</h1>
+                    <img src="../img/profile.png" alt="" class="profile">
+                    <div class="content">
+                        <h6>Username</h6>
+                        <input type="text" name="username" id="username" class="input">
+                    </div>
+                    <div class="content">
+                        <h6>Password</h6>
+                        <input type="text" name="password" id="password" class="input">
+                    </div>
+                    <div class="link">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                    <div>
+                        <div class="flex">
+                                <div>
+                                        <input type="checkbox" name="user" class="lastblock">Use Last Agency<br>  
+                                </div>
+                    
+                        <div>
+                            <button type="button" onclick="rez()" id="rez" class="block3 btn btn-outline-primary lastblock1">Login</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
